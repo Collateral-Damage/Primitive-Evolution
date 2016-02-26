@@ -1,0 +1,36 @@
+
+{
+  "ID": 100,
+  "Name": "Undergound Jungle",
+  "Class": "erebus.world.biomes.BiomeUndergroundJungle",
+  "Color": 5491255,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "minecraft:water",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 1.15,
+  "Humidity": 0.9,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "WET",
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      50
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Tweaked": false
+}

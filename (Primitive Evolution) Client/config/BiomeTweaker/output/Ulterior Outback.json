@@ -1,0 +1,36 @@
+
+{
+  "ID": 104,
+  "Name": "Ulterior Outback",
+  "Class": "erebus.world.biomes.BiomeUlteriorOutback",
+  "Color": 12695144,
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:sand",
+  "Filler Block": "minecraft:dirt",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "minecraft:water",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.90000004,
+  "Humidity": -0.10000001,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "PLAINS",
+    "SANDY"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      50
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Tweaked": false
+}

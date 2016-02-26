@@ -1,0 +1,32 @@
+
+{
+  "ID": 229,
+  "Name": "Volcanic Desert M",
+  "Class": "net.minecraft.world.biome.BiomeGenMutated",
+  "Color": 10926926,
+  "Root Height": 0.2,
+  "Height Variation": 0.4,
+  "Top Block": "minecraft:sand",
+  "Filler Block": "minecraft:sandstone",
+  "Actual Filler Block": "minecraft:stone",
+  "Liquid Filler Block": "minecraft:water",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.8999999,
+  "Humidity": -0.10000001,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "HILLS",
+    "SANDY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Tweaked": false
+}
