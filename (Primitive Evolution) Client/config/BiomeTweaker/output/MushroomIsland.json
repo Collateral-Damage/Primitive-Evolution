@@ -9,7 +9,7 @@
   "Top Block": "minecraft:mycelium",
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "minecraft:water",
+  "Liquid Filler Block": "streams:river/tile.water/2/2",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
