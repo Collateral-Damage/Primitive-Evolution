@@ -9,7 +9,7 @@
   "Top Block": "minecraft:mycelium",
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -22,23 +22,9 @@
     "MUSHROOM"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityMooshroom",
-      "Weight": 8,
-      "Min Group Count": 4,
-      "Max Group Count": 8
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityBat",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 8
-    }
-  ],
-  "Tweaked": false
+  "Spawnable Cave Creatures": [],
+  "Tweaked": true
 }

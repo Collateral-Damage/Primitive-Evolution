@@ -9,7 +9,7 @@
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "6051893",
@@ -26,5 +26,5 @@
   "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
-  "Tweaked": false
+  "Tweaked": true
 }

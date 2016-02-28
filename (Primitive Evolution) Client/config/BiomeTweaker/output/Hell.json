@@ -9,7 +9,7 @@
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -25,39 +25,8 @@
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
-  "Spawnable Monsters": [
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityGhast",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityPigZombie",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityMagmaCube",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.draco18s.wildlife.entity.EntityLizard",
-      "Weight": 8,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "erebus.entity.EntityBlackWidow",
-      "Weight": 100,
-      "Min Group Count": 2,
-      "Max Group Count": 5
-    }
-  ],
+  "Spawnable Monsters": [],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
-  "Tweaked": false
+  "Tweaked": true
 }

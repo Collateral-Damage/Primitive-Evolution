@@ -9,7 +9,7 @@
   "Top Block": "minecraft:grass",
   "Filler Block": "minecraft:dirt",
   "Actual Filler Block": "minecraft:stone",
-  "Liquid Filler Block": "streams:river/tile.water/2/2",
+  "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
@@ -25,12 +25,355 @@
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
-      50
+      900
+    ],
+    "COOL Weights": [
+      900
     ]
   },
-  "Spawnable Creatures": [],
-  "Spawnable Monsters": [],
-  "Spawnable Water Creatures": [],
-  "Spawnable Cave Creatures": [],
-  "Tweaked": false
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 300,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.draco18s.wildlife.entity.EntityGoat",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 400,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 300,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 150,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBeetleLarva",
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityWasp",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityCentipede",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBeetle",
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityFly",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityMosquito",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityTarantula",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityVelvetWorm",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBotFly",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBlackWidow",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityGrasshopper",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityLocust",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntitySolifuge",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityMoth",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityGlowWorm",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityScytodes",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityMoneySpider",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityPrayingMantis",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityJumpingSpider",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityRhinoBeetle",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityWorkerBee",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityDragonfly",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBloodSnail",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityTitanBeetle",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBotFlyLarva",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityWheatWeevil",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityWoodlouse",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityCicada",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityChameleonTick",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntitySolifugeSmall",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityMidgeSwarm",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityPunchroom",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityCrushroom",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBlackAnt",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityZombieAnt",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityLeech",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityWisp",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntitySnapper",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBombardierBeetle",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityHoneyPotAnt",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBombardierBeetleLarva",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityZombieAntSoldier",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityBedBug",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "erebus.entity.EntityStagBeetle",
+      "Weight": 200,
+      "Min Group Count": 4,
+      "Max Group Count": 10
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Tweaked": true
 }
