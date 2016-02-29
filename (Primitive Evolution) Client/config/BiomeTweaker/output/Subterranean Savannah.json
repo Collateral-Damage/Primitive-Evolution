@@ -25,7 +25,7 @@
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
-      300
+      40
     ]
   },
   "Spawnable Creatures": [
@@ -37,161 +37,53 @@
     },
     {
       "Entity Class": "com.draco18s.wildlife.entity.EntityLizard",
-      "Weight": 20,
+      "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
     {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
-      "Weight": 400,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-      "Weight": 800,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
-      "Weight": 150,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
       "Weight": 50,
       "Min Group Count": 4,
-      "Max Group Count": 10
+      "Max Group Count": 4
     },
     {
       "Entity Class": "erebus.entity.EntityWasp",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityBlackWidow",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "erebus.entity.EntityScorpion",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityLocust",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityAntlion",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityJumpingSpider",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityFireAnt",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityRhinoBeetle",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "erebus.entity.EntityTitanBeetle",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityFireAntSoldier",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "erebus.entity.EntityLavaWebSpider",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
+      "Weight": 2,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "erebus.entity.EntityBlackAnt",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityZombieAnt",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "erebus.entity.EntityMagmaCrawler",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityBombardierBeetle",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityHoneyPotAnt",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityBombardierBeetleLarva",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityZombieAntSoldier",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityBedBug",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "erebus.entity.EntityStagBeetle",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [],

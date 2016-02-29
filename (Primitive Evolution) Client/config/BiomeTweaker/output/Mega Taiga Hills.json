@@ -41,28 +41,10 @@
   ],
   "Spawnable Monsters": [
     {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-      "Weight": 600,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
-      "Weight": 200,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-      "Weight": 400,
-      "Min Group Count": 4,
-      "Max Group Count": 10
-    },
-    {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-      "Weight": 150,
+      "Weight": 60,
       "Min Group Count": 4,
-      "Max Group Count": 10
+      "Max Group Count": 4
     }
   ],
   "Spawnable Water Creatures": [],
